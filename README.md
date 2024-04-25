@@ -209,3 +209,199 @@ Contoh elemen non-semantik : &lt;div&gt; dan &lt;span&gt; - Tidak menjelaskan ap
 Contoh elemen semantik : &gt;form&lt;, &gt;table&lt;, dan &gt;article&lt; - Mendefinisikan isinya dengan jelas
 
 <img src="https://github.com/Alledanaralle/Praktikum-Pemrograman-Web-1/assets/139613761/97a68e25-44d3-4f78-931d-6b744f5edc5b" style="width:50%;">
+
+## CSS
+CSS merupakan singkatan dari Cascading Style Sheets. CSS adalah bahasa yang digunakan untuk mengatur tampilan dokumen HTML. CSS mendeskripsikan bagaimana elemen-elemen HTML ditampilkan.
+
+## CSS Selector
+Selector di CSS digunakan untuk memilih elemen HTML mana yang ingin di style. Contoh selector adalah : class (.), id (#), name, dan tag
+
+- Selector class = .class
+- Selector id = #id
+- Selector tag = &lt;div&gt;
+- Selector universal = *
+
+## CSS Align
+Untuk memusatkan elemen blok secara horizontal (seperti &lt;div&gt;), gunakan margin: auto;
+
+Menyetel lebar elemen akan mencegahnya meregang hingga ke tepi container.
+
+Elemen tersebut kemudian akan mengambil lebar yang ditentukan, dan ruang yang tersisa akan dibagi rata antara dua margin:
+
+Untuk memusatkan teks ke tengah, gunakan text-align: center;
+
+Untuk memusatkan gambar, atur margin kiri dan kanan ke otomatis dan buat menjadi elemen block
+
+<img src="https://github.com/Alledanaralle/Praktikum-Pemrograman-Web-1/assets/139613761/dae03f8f-1667-48cf-9ee9-92050f185e09" style="width:50%;">
+
+#CSS Attribute Selector
+Attribute selector digunakan untuk memilih elemen dengan atribut tertentu.
+
+- Selector [attribute="value"] digunakan untuk memilih elemen dengan atribut dan nilai tertentu.
+- Selector [attribute~="value"] digunakan untuk memilih elemen dengan atribut yang mengandung kata tertentu.
+- Selector [attribute|="value"] digunakan untuk memilih elemen dengan atribut yang ditentukan, yang nilainya bisa persis dengan nilai yang ditentukan, atau nilai yang ditentukan diikuti dengan tanda hubung (-).
+
+<img src="https://github.com/Alledanaralle/Praktikum-Pemrograman-Web-1/assets/139613761/0639e17f-1bdc-410d-968a-77fb3ff47444" style="width:50%;">
+
+## CSS Border
+Property border-style menspesifikasikan border apa yang akan ditampilkan
+
+- dotted - Mendefinisikan dotted border
+- dashed - Mendefinisikan dashed border
+- solid - Mendefinisikan solid border
+- double - Mendefinisikan double border
+- groove - Mendefinisikan 3D grooved border.
+- ridge - Mendefinisikan 3D ridged border.
+- inset - Mendefinisikan 3D inset border.
+- outset - Mendefinisikan 3D outset border.
+- none - Mendefinisikan tidak ada border
+- hidden - Mendefinisikan hidden border
+
+Properti border-width menentukan lebar border.
+
+Lebar dapat diatur sebagai ukuran tertentu (dalam px, pt, cm, em, dll) atau dengan menggunakan salah satu dari tiga nilai yang telah ditentukan sebelumnya: tipis, sedang, atau tebal.
+
+<img src="https://github.com/Alledanaralle/Praktikum-Pemrograman-Web-1/assets/139613761/22161afb-2aa7-4edf-b130-a286b5c04261" style="width:50%;">
+
+## CSS Box Model
+Box Model CSS pada dasarnya adalah sebuah kotak yang membungkus setiap elemen HTML. Terdiri dari: content, padding, border dan margin.
+
+- Content - Isi kotak, tempat teks dan gambar muncul
+- Padding - Menghapus area di sekitar konten. Padding transparan
+- Border - Border yang mengelilingi padding dan konten
+- Margin - Membersihkan area di luar border. Margin transparan
+
+<img src="https://github.com/Alledanaralle/Praktikum-Pemrograman-Web-1/assets/139613761/9401eb0d-533e-4eaa-84c0-e6570af308da" style="width:50%;">
+
+<img src="https://github.com/Alledanaralle/Praktikum-Pemrograman-Web-1/assets/139613761/df018a87-a92c-433f-9870-289172fd38c7" style="width:50%;">
+
+## Combinator
+Selector di CSS dapat berisi lebih dari satu selector.
+
+Ada empat kombinator berbeda di CSS :
+
+- Selector descendant (spasi)
+
+  Selector descendant mencocokkan semua elemen yang merupakan turunan dari elemen tertentu.
+  
+- Selector child (>)
+
+  Selector child memilih semua elemen yang merupakan anak dari elemen tertentu.
+  
+- Selector adjacent sibling (+)
+
+  Selector adjacent digunakan untuk memilih elemen yang berada tepat setelah elemen tertentu lainnya.
+  
+- Selector general sibling (~)
+
+  Selector sibling memilih semua elemen yang merupakan sibling berikutnya dari elemen tertentu.
+
+<img src="https://github.com/Alledanaralle/Praktikum-Pemrograman-Web-1/assets/139613761/bcbce527-ca27-4689-9d22-a4db68440327" style="width:50%;">
+<img src="https://github.com/Alledanaralle/Praktikum-Pemrograman-Web-1/assets/139613761/43dfd2b8-b790-4ccc-aeb7-9240bea2a466" style="width:50%;">
+
+## CSS Display
+Properti display digunakan untuk menentukan bagaimana suatu elemen ditampilkan pada halaman web.
+
+Setiap elemen HTML memiliki nilai tampilan default, bergantung pada jenis elemennya. Nilai tampilan default untuk sebagian besar elemen adalah block atau inline.
+
+- Display: none;
+
+   display: none; biasanya digunakan dengan JavaScript untuk menyembunyikan dan menampilkan elemen tanpa menghapus dan membuatnya kembali.
+
+- Ganti Nilai Tampilan Default
+
+  Mengubah elemen inline menjadi elemen block, atau sebaliknya, dapat berguna untuk membuat halaman terlihat spesifik, dan tetap mengikuti standar web.
+
+<img src="https://github.com/Alledanaralle/Praktikum-Pemrograman-Web-1/assets/139613761/64b566f3-bee2-4d57-8771-b9b45718ba4a" style="width:50%;">
+
+## CSS Fonts
+Di CSS ada lima jenis font-family
+
+- Font Serif, memiliki guratan kecil di tepi setiap huruf. Mereka menciptakan kesan formalitas dan keanggunan.
+- Font Sans-serif, memiliki garis yang bersih (tidak ada guratan kecil yang menempel). Mereka menciptakan tampilan modern dan minimalis.
+- Font Monospace, di sini semua huruf memiliki lebar tetap yang sama. Mereka menciptakan tampilan mekanis.
+- Font Cursive, meniru tulisan tangan manusia.
+- Font Fantasy adalah font dekoratif/menyenangkan.
+
+Contoh Font untuk HTML dan CSS :
+- Arial (sans-serif)
+- Verdana (sans-serif)
+- Tahoma (sans-serif)
+- Trebuchet MS (sans-serif)
+- Times New Roman (serif)
+- Georgia (serif)
+- Garamond (serif)
+- Courier New (monospace)
+- Brush Script MT (cursive)
+
+Syntax = font-family: Arial,sans-serif;
+
+<img src="https://github.com/Alledanaralle/Praktikum-Pemrograman-Web-1/assets/139613761/dd684151-620b-4b48-8c23-76043e4d88d7" style="width:50%;">
+
+## CSS Margin
+Properti margin CSS digunakan untuk membuat ruang di sekitar elemen, di luar batas yang ditentukan.
+
+Dengan CSS, kita dapat mengatur margin untuk web. Terdapat properti untuk mengatur margin untuk setiap sisi elemen (atas, kanan, bawah, dan kiri).
+
+CSS memiliki properti untuk menentukan margin untuk setiap sisi elemen:
+
+- margin-top
+- margin-right
+- margin-bottom
+- margin-left
+
+<img src="https://github.com/Alledanaralle/Praktikum-Pemrograman-Web-1/assets/139613761/49fc85d9-7ac9-488a-9508-3aceee05be3c" style="width:50%;">
+
+## CSS Padding
+Properti padding CSS digunakan untuk menghasilkan ruang di sekitar konten elemen, di dalam batas yang ditentukan.
+
+Dengan CSS, kita dapat mengatur padding untuk web. Terdapat properti untuk mengatur margin untuk setiap sisi elemen (atas, kanan, bawah, dan kiri).
+
+- padding-top
+- padding-right
+- padding-bottom
+- padding-left
+
+<img src="https://github.com/Alledanaralle/Praktikum-Pemrograman-Web-1/assets/139613761/9657985a-7051-4555-a686-bf240279b802" style="width:50%;">
+
+## CSS Position
+Properti position menentukan jenis metode penentuan posisi yang digunakan untuk suatu elemen.
+
+Ada lima value position :
+
+- static
+
+  Elemen dengan position: static; tidak diposisikan secara khusus itu selalu diposisikan sesuai dengan aliran normal halaman
+  
+- relative
+
+  Elemen dengan position: relative; diposisikan relatif terhadap posisi normalnya.
+  
+- fixed
+
+  Elemen dengan position: fixed; diposisikan relatif terhadap area pandang, yang berarti area pandang selalu berada di tempat yang sama meskipun halaman di-scroll. Properti atas, kanan, bawah, dan kiri digunakan untuk memposisikan elemen.
+  
+- absolute
+
+  Elemen dengan position: absolute; diposisikan relatif terhadap posisi leluhur terdekat (bukan diposisikan relatif terhadap area pandang, seperti tetap).
+  
+- sticky
+
+  An element with position: sticky; is positioned based on the user's scroll position.
+
+<img src="https://github.com/Alledanaralle/Praktikum-Pemrograman-Web-1/assets/139613761/ee38f4e5-93a4-4e76-a79e-1e7a2b3204fb" style="width:50%;">
+
+## CSS Width & Height
+Properti Width & Height CSS digunakan untuk mengatur tinggi dan lebar suatu elemen.
+
+Properti CSS max-width digunakan untuk mengatur lebar maksimum suatu elemen.
+
+max-width dapat ditentukan dalam nilai panjang, seperti px, cm, dll., atau dalam persen (%) dari blok yang memuatnya, atau disetel ke tidak ada (ini adalah default. Berarti tidak ada lebar maksimum).
+
+Menggunakan max-width sebagai gantinya, dalam situasi ini, akan meningkatkan penanganan browser terhadap jendela kecil.
+
+Properti Wdth dan Height digunakan untuk mengatur tinggi dan lebar suatu elemen.
+
+Properti Width & Height tidak menyertakan padding, border, atau margin. Ini mengatur tinggi/lebar area di dalam padding, border, dan margin elemen.
+
+<img src="https://github.com/Alledanaralle/Praktikum-Pemrograman-Web-1/assets/139613761/57b4993a-72c9-4f76-bc75-211b41aa24ea" style="width:50%;">
