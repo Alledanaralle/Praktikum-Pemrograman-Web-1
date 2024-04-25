@@ -133,6 +133,79 @@ Elemen HTML &lt;address&gt; mendefinisikan informasi kontak dari penulis artikel
 ## HTML Colors
 Warna HTML ditentukan dengan nama warna yang sudah ditentukan sebelumnya, atau dengan nilai RGB, HEX, HSL, RGBA, atau HSLA.
 
-
+- Kita dapat mengubah background color untuk element HTML menggunakan background-color: ;
+- Kita dapat mengubah text color untuk element HTML menggunakan color: ;
+- Kita dapat mengubah border color untuk element HTML menggunakan border: solid;
 
 <img src="https://github.com/Alledanaralle/Praktikum-Pemrograman-Web-1/assets/139613761/3165a229-cf31-4a71-b8af-d0063b84be71" style="width:50%;">
+
+## HTML Links - target attribute
+Atribut target menentukan tempat untuk membuka dokumen yang ditautkan.
+
+Atribut target dapat memiliki salah satu dari nilai berikut :
+
+- _self - Default. Membuka dokumen di jendela/tab yang sama dengan yang diklik
+- _blank - Membuka dokumen di jendela atau tab baru
+- _parent - Membuka dokumen dalam bingkai induk
+- _top - Membuka dokumen di seluruh bagian jendela
+
+## HTML Tables
+Tabel di HTML mengizinkan developer untuk mengatur data ke dalam baris dan kolom
+
+- Setiap sel tabel didefinisikan oleh &lt;td&gt; dan &lt;/td&gt;
+- Setiap baris tabel didefinisikan oleh &lt;tr&gt; dan &lt;/tr&gt;
+- Setiap header tabel didefinisikan oleh &lt;th&gt; dan &lt;/th&gt;
+
+<img src="https://github.com/Alledanaralle/Praktikum-Pemrograman-Web-1/assets/139613761/efd420b0-177c-4916-aa26-568db7f62276" style="width:50%;">
+
+## List HTML
+- Unordered list dimulai dengan tag &lt;ul&gt;. Setiap list item dimulai dengan tag &lt;li&gt;. List item akan ditandai dengan bullets secara default
+- Ordered list dimulai dengan tag &lt;ol&gt;. Setiap list item dimulai dengan tag &lt;li&gt;. List item akan ditandai dengan angka secara default
+- tag &lt;dl&gt; mendefinisikan list deskripsi, tag &lt;dt&gt; mendefinisikan nama, dan tag &lt;dd&gt; mendeskripsikan setiap nama
+
+<img src="https://github.com/Alledanaralle/Praktikum-Pemrograman-Web-1/assets/139613761/82ac007f-2307-407a-b680-3509b5d8cf60" style="width:50%;">
+
+## HTML Div
+Elemen &lt;div&gt; secara default merupakan elemen blok yang berarti elemen ini mengambil semua lebar yang tersedia, dan dilengkapi dengan jeda baris sebelum dan sesudahnya
+
+<img src="https://github.com/Alledanaralle/Praktikum-Pemrograman-Web-1/assets/139613761/1ef5b6c7-2a64-4627-97b6-c475c33ae040" style="width:50%;">
+
+## HTML Class
+Atribut class HTML digunakan untuk menentukan class untuk elemen HTML.
+
+Beberapa elemen HTML dapat berbagi class yang sama.
+
+Atribut class sering digunakan untuk menunjuk ke nama class dalam style sheet. Atribut ini juga dapat digunakan oleh JavaScript untuk mengakses dan memanipulasi elemen dengan nama kelas tertentu.
+
+<img src="https://github.com/Alledanaralle/Praktikum-Pemrograman-Web-1/assets/139613761/135e8f02-ab11-4e73-8315-c93859cbcbdc" style="width:50%;">
+
+## HTML Id
+Atribut id HTML digunakan untuk menentukan id untuk elemen HTML.
+
+Kita tidak dapat memiliki lebih dari satu elemen dengan id yang sama dalam dokumen HTML.
+
+Atribut id digunakan untuk menunjuk ke deklarasi style tertentu dalam style sheet. Atribut ini juga digunakan oleh JavaScript untuk mengakses dan memanipulasi elemen dengan id tertentu.
+
+Sintaks untuk id adalah: (#), diikuti dengan nama id. Kemudian, tentukan properti CSS di dalam tanda kurung kurawal {}.
+
+<img src="https://github.com/Alledanaralle/Praktikum-Pemrograman-Web-1/assets/139613761/29aacc5d-129f-4ccf-b72c-868dc7bf1676" style="width:50%;">
+
+## HTML Iframes
+Iframe biasanya digunakan untuk menampilkan halaman web didalam halaman web
+
+Tag HTML &lt;iframe&gt; menentukan bingkai sebaris.
+
+Atribut src mendefinisikan URL yang akan ditampilkan di frame 
+
+Bingkai sebaris digunakan untuk menyematkan dokumen lain di dalam dokumen HTML saat ini. Kita bisa mengatur lebar dan tinggi frame menggunakan style
+
+<img src="https://github.com/Alledanaralle/Praktikum-Pemrograman-Web-1/assets/139613761/e8a3cfa1-6f78-42c4-af15-21e90e3caff0" style="width:50%;">
+
+## HTML Semantic
+Elemen Semantic menjelaskan bagiasn apa kepada browser dan developer
+
+Contoh elemen non-semantik : &lt;div&gt; dan &lt;span&gt; - Tidak menjelaskan apa pun tentang isinya
+
+Contoh elemen semantik : &gt;form&lt;, &gt;table&lt;, dan &gt;article&lt; - Mendefinisikan isinya dengan jelas
+
+<img src="https://github.com/Alledanaralle/Praktikum-Pemrograman-Web-1/assets/139613761/97a68e25-44d3-4f78-931d-6b744f5edc5b" style="width:50%;">
