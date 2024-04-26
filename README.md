@@ -405,3 +405,169 @@ Properti Wdth dan Height digunakan untuk mengatur tinggi dan lebar suatu elemen.
 Properti Width & Height tidak menyertakan padding, border, atau margin. Ini mengatur tinggi/lebar area di dalam padding, border, dan margin elemen.
 
 <img src="https://github.com/Alledanaralle/Praktikum-Pemrograman-Web-1/assets/139613761/57b4993a-72c9-4f76-bc75-211b41aa24ea" style="width:50%;">
+
+## Javascript
+## JS Output
+JavaScript dapat "menampilkan" data dengan berbagai cara :
+
+- Menulis ke dalam elemen HTML, menggunakan innerHTML.
+- Menulis ke dalam output HTML menggunakan document.write().
+- Menulis ke dalam kotak peringatan, menggunakan window.alert().
+- Menulis ke konsol browser, menggunakan console.log().
+
+<img src="https://github.com/Alledanaralle/Praktikum-Pemrograman-Web-1/assets/139613761/e0f62988-24ab-4fe7-aaff-aec720c8266f" style="width:50%;">
+
+## JS Statements
+Statement di Javascript terdiri dari :
+
+Values, Operators, Expressions, Keywords, and Comments.
+
+Keyword di JS :
+
+- var Mendeklarasikan sebuah variabel
+- let Mendeklarasikan variabel blok
+- const Mendeklarasikan konstanta blok
+- if Menandai blok pernyataan yang akan dieksekusi pada suatu kondisi
+- switch Menandai blok pernyataan yang akan dieksekusi dalam kasus berbeda
+- for Menandai blok pernyataan yang akan dieksekusi dalam satu lingkaran
+- function Mendeklarasikan suatu fungsi
+- return Keluar dari suatu fungsi
+- try Mengimplementasikan penanganan kesalahan pada blok pernyataan
+
+<img src="https://github.com/Alledanaralle/Praktikum-Pemrograman-Web-1/assets/139613761/b7dc9d68-eb34-4dfb-8ac8-3a885f8fc077" style="width:50%;">
+
+## JS Syntax
+Sintaks JavaScript mendefinisikan dua jenis nilai :
+
+- Fixed values
+- Variable values
+
+Fixed values disebut Literals.
+
+Variable values disebut Variables.
+
+<img src="https://github.com/Alledanaralle/Praktikum-Pemrograman-Web-1/assets/139613761/2d681ea3-d499-464e-91be-7483593a4f26" style="width:50%;">
+
+
+## JS Variable
+Variabel JavaScript dapat dideklarasikan dengan 4 cara :
+
+- Secara otomatis
+- Menggunakan var
+- Menggunakan biarkan
+- Menggunakan konstanta
+
+Kapan Menggunakan var, let, atau const?
+
+1. Selalu mendeklarasikan variabel
+
+2. Selalu gunakan const jika nilainya tidak boleh diubah
+
+3. Selalu gunakan const jika tipenya tidak boleh diubah (Array dan Object)
+
+4. Hanya gunakan let jika tidak dapat menggunakan const
+
+5. Hanya gunakan var jika harus mendukung browser lama.
+
+<img src="https://github.com/Alledanaralle/Praktikum-Pemrograman-Web-1/assets/139613761/f3f938e6-350c-492c-a558-5c29bc49095c" style="width:50%;">
+
+## JS Operator
+Operator Javascript digunakan untuk melakukan berbagai jenis perhitungan matematis dan logis.
+
+Contoh :
+
+- The Assignment Operator = assigns values
+- The Addition Operator + adds values
+- The Multiplication Operator * multiplies values
+- The Comparison Operator > compares values
+
+Ada berbagai jenis operator JavaScript :
+
+- Operator Aritmatika
+- Operator Penugasan
+- Operator Perbandingan
+- Operator String
+- Operator Logis
+- Operator Bitwise
+- Operator Terner
+- Tipe Operator
+
+Operator Perbandingan JavaScript :
+
+- == sama dengan
+- === nilai yang sama dan tipe yang sama
+- != tidak sama
+- !== nilai tidak sama atau tipe tidak sama
+- &gt; lebih besar dari
+- < kurang dari
+- &gt;= lebih besar atau sama dengan
+- <= kurang dari atau sama dengan
+- ? operator terner
+
+<img src="https://github.com/Alledanaralle/Praktikum-Pemrograman-Web-1/assets/139613761/c6162f6a-b536-4366-a6ab-fc93e5c3ab1e" style="width:50%;">
+
+## JS Data Types
+JavaScript memiliki 8 Tipe Data :
+
+1. String
+2. Number
+3. Bigint
+4. Boolean
+5. Undefined
+6. Null
+7. Symbol
+8. Object
+
+Tipe Data Objek. Tipe data objek dapat berisi :
+
+1. Object
+2. Array
+3. Date
+
+<img src="https://github.com/Alledanaralle/Praktikum-Pemrograman-Web-1/assets/139613761/aadaeb5e-612e-4569-a0f1-491298a88a9b" style="width:50%;">
+
+## JS Function
+Fungsi JavaScript adalah blok kode yang dirancang untuk melakukan tugas tertentu.
+
+Fungsi JavaScript dijalankan ketika "sesuatu" memanggilnya.
+
+Fungsi JavaScript didefinisikan dengan kata kunci function, diikuti dengan nama, diikuti dengan tanda kurung ().
+
+Nama fungsi dapat berisi huruf, angka, garis bawah, dan tanda dolar (aturannya sama seperti variabel).
+
+Tanda kurung dapat menyertakan nama parameter yang dipisahkan dengan koma:
+(parameter1, parameter2, ...)
+
+Kode yang akan dieksekusi, berdasarkan fungsi, ditempatkan di dalam tanda kurung kurawal: {}
+
+Ketika JavaScript mencapai pernyataan return, function tersebut akan berhenti dijalankan.
+
+Jika function dipanggil dari sebuah pernyataan, JavaScript akan kembali untuk mengeksekusi kode setelah pernyataan yang dipanggil.
+
+Function sering kali menghitung return value. Nilai yang dikembalikan "dikembalikan" ke "pemanggil"
+
+<img src="https://github.com/Alledanaralle/Praktikum-Pemrograman-Web-1/assets/139613761/7ad1cf15-c407-4236-bd27-95641659d808" style="width:50%;">
+
+## JS Events
+Events HTML dapat berupa sesuatu yang dilakukan browser, atau sesuatu yang dilakukan pengguna.
+
+Berikut adalah beberapa contoh Events HTML :
+
+- Halaman web HTML telah selesai dimuat
+- Input HTML telah diubah
+- Tombol HTML diklik
+
+JavaScript memungkinkan Anda mengeksekusi kode ketika Event terdeteksi.
+
+HTML memungkinkan atribut event handler, dengan kode JavaScript, untuk ditambahkan ke elemen HTML.
+
+Berikut adalah contoh Events :
+
+- onchange, Elemen HTML telah diubah
+- onclick, Pengguna mengklik elemen HTML
+- onmouseover, Pengguna menggerakkan mouse ke atas elemen HTML
+- onmouseout, Pengguna menggerakkan mouse menjauh dari elemen HTML
+- onkeydown, Pengguna menekan tombol keyboard
+- onload, Browser telah selesai memuat halaman
+
+<img src="https://github.com/Alledanaralle/Praktikum-Pemrograman-Web-1/assets/139613761/fed9f518-49f3-458d-8dd8-44506ab253ae" style="width:50%;">
